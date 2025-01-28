@@ -1,0 +1,20 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+      
+        Console.Write("Preço do produto: R$ ");
+        decimal preco = Convert.ToDecimal(Console.ReadLine());
+        Console.Write("desconto em porcentagem: ");
+        decimal desconto = Convert.ToDecimal(Console.ReadLine());
+        decimal valorFinal = preco - (preco * desconto / 100);
+        Console.WriteLine("O valor do produto com desconto aplicado é: " + valorFinal);
+
+
+    ;
+
+        
+    }
+}
