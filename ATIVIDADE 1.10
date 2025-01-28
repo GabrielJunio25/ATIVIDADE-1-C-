@@ -1,0 +1,24 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+      
+        Console.WriteLine("==========ENDEREÇO========== ");
+      Console.Write("Rua: ");
+      string rua = Console.ReadLine();
+        Console.Write("Numero da casa: ");
+        string casa = Console.ReadLine();
+        
+        Console.Write("Bairro: ");
+        string bairro = Console.ReadLine();
+        Console.Write("Cidade: ");
+        string cidade = Console.ReadLine();
+        Console.Write("Estado: ");
+        string estado = Console.ReadLine();
+        Console.Clear();
+        
+        Console.WriteLine("Rua " + rua + ", numero " + casa + ", " + cidade + ", " + estado + "." );
+    }
+}
